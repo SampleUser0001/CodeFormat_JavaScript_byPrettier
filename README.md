@@ -1,14 +1,15 @@
 # CodeFormat_JavaScript_byPrettier
 PrettierでJavaScriptのコードをフォーマットする
 
-## 実行方法
+## 使用方法
 
+1. js直下に変換したいjavascriptファイルを配置する
+2. 下記を実行
 ```
 docker-compose build
 docker-compose up
 ```
-
-
+3. js/formatted配下に変換されたファイルが配置される。
 
 ## 参考
 
