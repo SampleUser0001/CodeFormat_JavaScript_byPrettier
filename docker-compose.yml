@@ -1,0 +1,7 @@
+version: '3'
+services:
+  node:
+    build: .
+    container_name: jscodeformatter
+    volumes:
+      - ./js/formatted:/app/js/formatted
